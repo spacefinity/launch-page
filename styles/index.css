@@ -2,6 +2,15 @@ body {
   background-color: #f7f7f7;
 }
 
+hr {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+p {
+  margin: 0;
+}
+
 .red-mast {
   background-color: #ed5835;
   height:375px;
@@ -16,7 +25,7 @@ body {
 .container-760 {
   margin: 0 auto;
   max-width: 760px;
-} 
+}
 
 .grey-mast {
   background-color: #efefef;
@@ -27,7 +36,7 @@ body {
 .grey-container {
   margin: 0 auto;
   max-width: 760px;
-} 
+}
 
 .spacelord {
   float: right;
@@ -47,8 +56,8 @@ body {
 }
 
 .bubble {
-  background-image: url('../img/Bubble.png');
-  background-image: none,url('../img/Bubble.svg'), url('../img/Bubble.png');
+  background-image: url('../images/bubble.png');
+  background-image: none,url('../images/bubble.svg'), url('../images/bubble.png');
   background-repeat: no-repeat;
   width: 477px;
   display: block;
@@ -57,8 +66,8 @@ body {
 }
 
 .bubble-r {
-  float: right; 
-  width: 20px;  
+  float: right;
+  width: 20px;
   height: 100px;
   background: blue;
 }
@@ -179,7 +188,7 @@ ul.social li {
 }
 
 .copy {
-  float: left; 
+  float: left;
 }
 
 .copy p {
@@ -188,8 +197,8 @@ ul.social li {
 }
 
 .facebook {
-  background-image: url('../img/Facebook.png');
-  background-image: none,url('../img/Facebook.svg'), url('../img/Facebook.png');
+  background-image: url('../images/facebook.png');
+  background-image: none,url('../images/facebook.svg'), url('../images/facebook.png');
   background-repeat: no-repeat;
   height: 42px;
   width: 42px;
@@ -199,8 +208,8 @@ ul.social li {
 }
 
 .facebook:hover {
-  background-image: url('../img/Facebook.png');
-  background-image: none,url('../img/Facebook.svg'), url('../img/Facebook.png');
+  background-image: url('../images/facebook.png');
+  background-image: none,url('../images/facebook.svg'), url('../images/facebook.png');
   background-repeat: no-repeat;
   height: 42px;
   width: 42px;
@@ -210,8 +219,8 @@ ul.social li {
 }
 
 .twitter {
-  background-image: url('../img/Twitter.png');
-  background-image: none,url('../img/Twitter.svg'), url('../img/Twitter.png');
+  background-image: url('../images/twitter.png');
+  background-image: none,url('../images/twitter.svg'), url('../images/twitter.png');
   background-repeat: no-repeat;
   height: 42px;
   width: 42px;
@@ -221,8 +230,8 @@ ul.social li {
 }
 
 .twitter:hover {
-  background-image: url('../img/Twitter.png');
-  background-image: none,url('../img/Twitter.svg'), url('../img/Twitter.png');
+  background-image: url('../images/twitter.png');
+  background-image: none,url('../images/twitter.svg'), url('../images/twitter.png');
   background-repeat: no-repeat;
   height: 42px;
   width: 42px;
@@ -232,8 +241,8 @@ ul.social li {
 }
 
 .linkedin {
-  background-image: url('../img/LinkedIn.png');
-  background-image: none,url('../img/LinkedIn.svg'), url('../img/LinkedIn.png');
+  background-image: url('../images/linkedIn.png');
+  background-image: none,url('../images/linkedIn.svg'), url('../images/linkedIn.png');
   background-repeat: no-repeat;
   height: 42px;
   width: 42px;
@@ -243,8 +252,8 @@ ul.social li {
 }
 
 .linkedin:hover {
-  background-image: url('../img/LinkedIn.png');
-  background-image: none,url('../img/LinkedIn.svg'), url('../img/LinkedIn.png');
+  background-image: url('../images/linkedIn.png');
+  background-image: none,url('../images/linkedIn.svg'), url('../images/linkedIn.png');
   background-repeat: no-repeat;
   height: 42px;
   width: 42px;
@@ -254,8 +263,8 @@ ul.social li {
 }
 
 .youtube {
-  background-image: url('../img/YouTube.png');
-  background-image: none,url('../img/YouTube.svg'), url('../img/YouTube.png');
+  background-image: url('../images/youtube.png');
+  background-image: none,url('../images/youtube.svg'), url('../images/youtube.png');
   background-repeat: no-repeat;
   height: 42px;
   width: 42px;
@@ -265,8 +274,8 @@ ul.social li {
 }
 
 .youtube:hover {
-  background-image: url('../img/YouTube.png');
-  background-image: none,url('../img/YouTube.svg'), url('../img/YouTube.png');
+  background-image: url('../images/youtube.png');
+  background-image: none,url('../images/youtube.svg'), url('../images/youtube.png');
   background-repeat: no-repeat;
   height: 42px;
   width: 42px;
@@ -299,7 +308,7 @@ input {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    border: 0px solid white; 
+    border: 0px solid white;
     padding-left: 20px;
     font-size: 24px;
     color:#cccccc;
@@ -331,20 +340,146 @@ input {
 
 :-moz-placeholder { /* Firefox 18- */
    color: #cccccc!important;
-   padding-top: 5px;  
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-   color: #cccccc!important;  
    padding-top: 5px;
 }
 
-:-ms-input-placeholder {  
+::-moz-placeholder {  /* Firefox 19+ */
    color: #cccccc!important;
-   padding-top: 5px; 
+   padding-top: 5px;
+}
+
+:-ms-input-placeholder {
+   color: #cccccc!important;
+   padding-top: 5px;
 }
 
 .spacefinity {
-  height: 75px; 
+  height: 75px;
   width: 295px;
+}
+
+@media (max-width: 767px) {
+  body {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .logo {
+    padding-left: 20px;
+  }
+  .launch {
+    padding-left: 20px;
+  }
+  .bubble {
+    margin-left: 0px;
+  }
+  .bubble {
+    background: none;
+    width: 100%;
+    float: left;
+    margin-top: -4px;
+} 
+.bubble h1 {
+  padding-bottom: 12px;
+  margin-right: 20px;
+}
+.skinny {
+  visibility: visible;
+  background: white;
+  margin-top: -100px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+.wide {
+  visibility: hidden;
+}
+
+.container-fluid {
+  padding: 0;
+}
+  
+.container {
+  width: auto;
+}
+
+.crew {
+  display: block;
+}
+
+.SL {
+  display: none;
+}
+
+.Renter {
+  display: none;
+}
+
+.skinny-container {
+  background-color: #ed5835;
+  height:100%;
+  float: left;
+}
+
+.about {
+float: left;
+width: 90%;
+margin-top: 30px;
+margin-left: 20px;
+}
+
+.red-mast {
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+.emailbox {
+  width: 100%;
+}
+
+.mailchimp {
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.signupbutton {
+  width: 100%;
+  float: left;
+  padding-left: 20px;
+  margin-bottom: 60px;
+  margin-right: 0px!important;
+}
+
+.signupalign {
+  margin-left: -20px;
+}
+
+.footer {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media (max-width: 480px) {
+  .bubble {
+    margin-top: -4px!important;
+  }
+
+  /* Smartphones (portrait and landscape) ----------- */
+@media (max-width: 465px) {
+  .bubble {
+    margin-top: -64px!important;
+  }
+
+
+@media (max-width: 335px) {
+.bubble {
+  margin-top: -94px!important;
+}
+@media (max-width: 320px) {
+.bubble {
+  margin-top: -94px!important;
 }
