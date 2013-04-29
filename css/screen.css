@@ -2,6 +2,15 @@ body {
   background-color: #f7f7f7;
 }
 
+hr {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+p {
+  margin: 0;
+}
+
 .red-mast {
   background-color: #ed5835;
   height:375px;
