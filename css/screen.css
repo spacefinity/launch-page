@@ -16,7 +16,7 @@ body {
 .container-760 {
   margin: 0 auto;
   max-width: 760px;
-} 
+}
 
 .grey-mast {
   background-color: #efefef;
@@ -27,7 +27,7 @@ body {
 .grey-container {
   margin: 0 auto;
   max-width: 760px;
-} 
+}
 
 .spacelord {
   float: right;
@@ -57,8 +57,8 @@ body {
 }
 
 .bubble-r {
-  float: right; 
-  width: 20px;  
+  float: right;
+  width: 20px;
   height: 100px;
   background: blue;
 }
@@ -179,7 +179,7 @@ ul.social li {
 }
 
 .copy {
-  float: left; 
+  float: left;
 }
 
 .copy p {
@@ -299,7 +299,7 @@ input {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    border: 0px solid white; 
+    border: 0px solid white;
     padding-left: 20px;
     font-size: 24px;
     color:#cccccc;
@@ -331,20 +331,20 @@ input {
 
 :-moz-placeholder { /* Firefox 18- */
    color: #cccccc!important;
-   padding-top: 5px;  
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-   color: #cccccc!important;  
    padding-top: 5px;
 }
 
-:-ms-input-placeholder {  
+::-moz-placeholder {  /* Firefox 19+ */
    color: #cccccc!important;
-   padding-top: 5px; 
+   padding-top: 5px;
+}
+
+:-ms-input-placeholder {
+   color: #cccccc!important;
+   padding-top: 5px;
 }
 
 .spacefinity {
-  height: 75px; 
+  height: 75px;
   width: 295px;
 }
