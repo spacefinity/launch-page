@@ -56,8 +56,8 @@ p {
 }
 
 .bubble {
-  background-image: url('../img/bubble.png');
-  background-image: none,url('../img/bubble.svg'), url('../img/bubble.png');
+  background-image: url('../images/bubble.png');
+  background-image: none,url('../images/bubble.svg'), url('../images/bubble.png');
   background-repeat: no-repeat;
   width: 477px;
   display: block;
@@ -197,8 +197,8 @@ ul.social li {
 }
 
 .facebook {
-  background-image: url('../img/facebook.png');
-  background-image: none,url('../img/facebook.svg'), url('../img/facebook.png');
+  background-image: url('../images/facebook.png');
+  background-image: none,url('../images/facebook.svg'), url('../images/facebook.png');
   background-repeat: no-repeat;
   height: 42px;
   width: 42px;
@@ -208,8 +208,8 @@ ul.social li {
 }
 
 .facebook:hover {
-  background-image: url('../img/facebook.png');
-  background-image: none,url('../img/facebook.svg'), url('../img/facebook.png');
+  background-image: url('../images/facebook.png');
+  background-image: none,url('../images/facebook.svg'), url('../images/facebook.png');
   background-repeat: no-repeat;
   height: 42px;
   width: 42px;
@@ -219,8 +219,8 @@ ul.social li {
 }
 
 .twitter {
-  background-image: url('../img/twitter.png');
-  background-image: none,url('../img/twitter.svg'), url('../img/twitter.png');
+  background-image: url('../images/twitter.png');
+  background-image: none,url('../images/twitter.svg'), url('../images/twitter.png');
   background-repeat: no-repeat;
   height: 42px;
   width: 42px;
@@ -230,8 +230,8 @@ ul.social li {
 }
 
 .twitter:hover {
-  background-image: url('../img/twitter.png');
-  background-image: none,url('../img/twitter.svg'), url('../img/twitter.png');
+  background-image: url('../images/twitter.png');
+  background-image: none,url('../images/twitter.svg'), url('../images/twitter.png');
   background-repeat: no-repeat;
   height: 42px;
   width: 42px;
@@ -241,8 +241,8 @@ ul.social li {
 }
 
 .linkedin {
-  background-image: url('../img/linkedIn.png');
-  background-image: none,url('../img/linkedIn.svg'), url('../img/linkedIn.png');
+  background-image: url('../images/linkedIn.png');
+  background-image: none,url('../images/linkedIn.svg'), url('../images/linkedIn.png');
   background-repeat: no-repeat;
   height: 42px;
   width: 42px;
@@ -252,8 +252,8 @@ ul.social li {
 }
 
 .linkedin:hover {
-  background-image: url('../img/linkedIn.png');
-  background-image: none,url('../img/linkedIn.svg'), url('../img/linkedIn.png');
+  background-image: url('../images/linkedIn.png');
+  background-image: none,url('../images/linkedIn.svg'), url('../images/linkedIn.png');
   background-repeat: no-repeat;
   height: 42px;
   width: 42px;
@@ -263,8 +263,8 @@ ul.social li {
 }
 
 .youtube {
-  background-image: url('../img/youtube.png');
-  background-image: none,url('../img/youtube.svg'), url('../img/youtube.png');
+  background-image: url('../images/youtube.png');
+  background-image: none,url('../images/youtube.svg'), url('../images/youtube.png');
   background-repeat: no-repeat;
   height: 42px;
   width: 42px;
@@ -274,8 +274,8 @@ ul.social li {
 }
 
 .youtube:hover {
-  background-image: url('../img/youtube.png');
-  background-image: none,url('../img/youtube.svg'), url('../img/youtube.png');
+  background-image: url('../images/youtube.png');
+  background-image: none,url('../images/youtube.svg'), url('../images/youtube.png');
   background-repeat: no-repeat;
   height: 42px;
   width: 42px;
