@@ -100,8 +100,9 @@ p {
 .signupbutton {
   background: #ffd072;
   border-radius: 3px;
+  border: 0px;
   height: 64px;
-  width: 214px;
+  width: 214px!important;
   margin-right: 15px;
   margin-top: 22px;
   margin-bottom: 80px;
@@ -109,6 +110,11 @@ p {
   -webkit-box-shadow: 0px 5px 0px rgba(236, 183, 77, 1);
   -moz-box-shadow:    0px 5px 0px rgba(236, 183, 77, 1);
   box-shadow:         0px 5px 0px rgba(236, 183, 77, 1);
+  text-shadow: 0px 1px 2px #b37e15;
+  color: white;
+  font-size: 22px;
+  line-height: 64px;
+  text-align: center;
 }
 
 .signupbuttona:hover {
@@ -302,19 +308,28 @@ ul.social li {
   display: block;
 }
 
-input {
-    height: 67px;
-    position: relative;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    border: 0px solid white;
-    padding-left: 20px;
-    font-size: 24px;
-    color:#cccccc;
-    width: 100%;
-    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2) inset;
-    background: #ffffff; /* Old browsers */
+.field {
+    height: 61px!important;
+    position: relative!important;
+    -webkit-border-radius: 3px!important;
+    -moz-border-radius: 3px!important;
+    border-radius: 3px!important;
+    border: 0px solid white!important;
+    padding-left: 20px!important;
+    font-size: 24px!important;
+    color:#cccccc!important;
+    width: 100%!important;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2) inset!important;
+    background: #ffffff!important; /* Old browsers */
+}
+
+input.submit {
+  margin: 0!important;
+  padding: 0!important;
+  border: none!important;
+  color: blue!important;
+  background-color: transparent!important;
+  text-decoration: underline!important;
 }
 
 .emailbox {
@@ -434,11 +449,23 @@ margin-left: 20px;
 }
 
 .signupbutton {
-  width: 100%;
-  float: left;
-  padding-left: 20px;
-  margin-bottom: 60px;
+  background: #ffd072;
+  border-radius: 3px;
+  border: 0px;
+  height: 64px;
+  width: 100%!important;
   margin-right: 0px!important;
+  margin-top: 22px;
+  margin-bottom: 60px;
+  float: left;
+  -webkit-box-shadow: 0px 5px 0px rgba(236, 183, 77, 1);
+  -moz-box-shadow:    0px 5px 0px rgba(236, 183, 77, 1);
+  box-shadow:         0px 5px 0px rgba(236, 183, 77, 1);
+  text-shadow: 0px 1px 2px #b37e15;
+  color: white;
+  font-size: 22px;
+  line-height: 64px;
+  text-align: center;
 }
 
 .signupalign {
