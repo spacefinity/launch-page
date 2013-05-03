@@ -104,8 +104,8 @@ p {
   height: 64px;
   width: 100%!important;
   margin-right: 15px;
-  margin-top: 22px;
-  margin-bottom: 80px;
+  margin-top: 20px;
+  margin-bottom: 60px;
   float: left;
   -webkit-box-shadow: 0px 5px 0px rgba(236, 183, 77, 1);
   -moz-box-shadow:    0px 5px 0px rgba(236, 183, 77, 1);
@@ -201,6 +201,17 @@ ul.social li {
 .copy p {
   margin-bottom: 25px;
   margin-top: 5px;
+}
+
+.arrow {
+  background-image: url('../images/Arrow.png');
+  background-image: none,url('../images/Arrow.svg'), url('../images/Arrow.png');
+  background-repeat: no-repeat;
+  display: block;
+  float: left;
+  opacity: .5;
+  width: 30px;
+  height: 17px;
 }
 
 .facebook {
@@ -327,6 +338,68 @@ ul.social li {
     box-shadow: 0px 5px 0px rgba(211, 211, 211, 1)!important;
 }
 
+.styled-select-l select {
+   background: transparent;
+   font-size: 24px;
+   color: #cccccc;
+   border: 0;
+   border-radius: 0;
+   height: 56px;
+   width: 100%;
+   -webkit-appearance: none;
+   padding-left: 18px;
+   }
+
+   .styled-select-r select {
+   background: transparent;
+   font-size: 24px;
+   color: #cccccc;
+   border: 0;
+   border-radius: 0;
+   height: 56px;
+   width: 100%;
+   -webkit-appearance: none;
+   padding-left: 18px;
+   }
+
+.styled-select-l {
+  width: 49%!important;
+  height: 56px!important;
+  overflow: hidden;
+  font-size: 24px!important;
+  color:#cccccc!important;
+  -webkit-border-radius: 3px!important;
+  -moz-border-radius: 3px!important;
+  border-radius: 3px!important;
+  border: 0px solid white!important;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2) inset!important;
+  -webkit-box-shadow: 0px 5px 0px rgba(211, 211, 211, 1)!important;
+  -moz-box-shadow: 0px 5px 0px rgba(211, 211, 211, 1)!important;
+  box-shadow: 0px 5px 0px rgba(211, 211, 211, 1)!important;
+  background: url(../images/Arrow.svg) no-repeat right #eee;
+  float: left;
+  margin-top: 10px;
+}
+
+.styled-select-r {
+  width: 49%!important;
+  height: 56px!important;
+  overflow: hidden;
+  font-size: 24px!important;
+  color:#cccccc!important;
+  -webkit-border-radius: 3px!important;
+  -moz-border-radius: 3px!important;
+  border-radius: 3px!important;
+  border: 0px solid white!important;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2) inset!important;
+  -webkit-box-shadow: 0px 5px 0px rgba(211, 211, 211, 1)!important;
+  -moz-box-shadow: 0px 5px 0px rgba(211, 211, 211, 1)!important;
+  box-shadow: 0px 5px 0px rgba(211, 211, 211, 1)!important;
+  background: url(../images/Arrow.svg) no-repeat right #eee;
+  float: right; 
+  margin-top: 10px;
+}
+
 input.submit {
   margin: 0!important;
   padding: 0!important;
@@ -365,6 +438,12 @@ input.submit {
 .spacefinity {
   height: 75px;
   width: 295px;
+}
+
+select:focus, input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus {
+  outline: thin dotted #333;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
 }
 
 @media (max-width: 767px) {
