@@ -44,7 +44,7 @@ p {
 }
 .bubble {
   background-image:url('../images/bubble.png');
-
+  background-image:none,url('../images/bubble.svg'),url('../images/bubble.png');
   background-repeat:no-repeat;
   width:477px;
   display:block;
@@ -180,8 +180,7 @@ ul.social li {
   height:17px;
 }
 .facebook {
-  background-image:url('../images/facebook.png');
-  background-image:none,url('../images/facebook.svg'),url('../images/facebook.png');
+  background-image:none,url('../images/facebook.svg');
   background-repeat:no-repeat;
   height:42px;
   width:42px;
@@ -190,8 +189,7 @@ ul.social li {
   opacity:.5;
 }
 .facebook:hover {
-  background-image:url('../images/facebook.png');
-  background-image:none,url('../images/facebook.svg'),url('../images/facebook.png');
+  background-image:none,url('../images/facebook.svg');
   background-repeat:no-repeat;
   height:42px;
   width:42px;
@@ -200,8 +198,7 @@ ul.social li {
   opacity:.8;
 }
 .twitter {
-  background-image:url('../images/twitter.png');
-  background-image:none,url('../images/twitter.svg'),url('../images/twitter.png');
+  background-image:none,url('../images/twitter.svg');
   background-repeat:no-repeat;
   height:42px;
   width:42px;
@@ -210,8 +207,7 @@ ul.social li {
   opacity:.5;
 }
 .twitter:hover {
-  background-image:url('../images/twitter.png');
-  background-image:none,url('../images/twitter.svg'),url('../images/twitter.png');
+  background-image:none,url('../images/twitter.svg');
   background-repeat:no-repeat;
   height:42px;
   width:42px;
@@ -220,8 +216,7 @@ ul.social li {
   opacity:.8;
 }
 .linkedin {
-  background-image:url('../images/linkedIn.png');
-  background-image:none,url('../images/linkedin.svg'),url('../images/linkedin.png');
+  background-image:none,url('../images/linkedin.svg');
   background-repeat:no-repeat;
   height:42px;
   width:42px;
@@ -230,8 +225,7 @@ ul.social li {
   opacity:.5;
 }
 .linkedin:hover {
-  background-image:url('../images/linkedIn.png');
-  background-image:none,url('../images/linkedIn.svg'),url('../images/linkedIn.png');
+  background-image:none,url('../images/linkedin.svg');
   background-repeat:no-repeat;
   height:42px;
   width:42px;
@@ -240,8 +234,7 @@ ul.social li {
   opacity:.8;
 }
 .youtube {
-  background-image:url('../images/youtube.png');
-  background-image:none,url('../images/youtube.svg'),url('../images/youtube.png');
+  background-image:none,url('../images/youtube.svg');
   background-repeat:no-repeat;
   height:42px;
   width:42px;
@@ -250,8 +243,7 @@ ul.social li {
   opacity:.5;
 }
 .youtube:hover {
-  background-image:url('../images/youtube.png');
-  background-image:none,url('../images/youtube.svg'),url('../images/youtube.png');
+  background-image:none,url('../images/youtube.svg');
   background-repeat:no-repeat;
   height:42px;
   width:42px;
