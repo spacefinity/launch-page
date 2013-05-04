@@ -321,13 +321,12 @@ ul.social li {
 }
 
 .field {
-    height: 56px!important;
+    height: 64px!important;
     position: relative!important;
     -webkit-border-radius: 3px!important;
     -moz-border-radius: 3px!important;
     border-radius: 3px!important;
     border: 0px solid white!important;
-    padding-left: 20px!important;
     font-size: 24px!important;
     color:#cccccc!important;
     width: 100%!important;
@@ -336,6 +335,9 @@ ul.social li {
     -webkit-box-shadow: 0px 5px 0px rgba(211, 211, 211, 1)!important;
     -moz-box-shadow: 0px 5px 0px rgba(211, 211, 211, 1)!important;
     box-shadow: 0px 5px 0px rgba(211, 211, 211, 1)!important;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
 .styled-select-l select {
@@ -344,10 +346,10 @@ ul.social li {
    color: #cccccc;
    border: 0;
    border-radius: 0;
-   height: 56px;
+   height: 64px;
    width: 100%;
    -webkit-appearance: none;
-   padding-left: 18px;
+   padding-left: 20px!important;
    }
 
    .styled-select-r select {
@@ -356,10 +358,10 @@ ul.social li {
    color: #cccccc;
    border: 0;
    border-radius: 0;
-   height: 56px;
+   height: 64px;
    width: 100%;
    -webkit-appearance: none;
-   padding-left: 18px;
+   padding-left: 20px!important;
    }
 
 .styled-select-l {
@@ -412,27 +414,31 @@ input.submit {
 .emailbox {
   float: left;
   margin-top: 22px;
-  width: 734px;
+  width: 760px;
 }
 
 ::-webkit-input-placeholder {
    color: #cccccc!important;
    padding-top: 5px;
+
 }
 
 :-moz-placeholder { /* Firefox 18- */
    color: #cccccc!important;
    padding-top: 5px;
+
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
    color: #cccccc!important;
    padding-top: 5px;
+
 }
 
 :-ms-input-placeholder {
    color: #cccccc!important;
    padding-top: 5px;
+
 }
 
 .spacefinity {
@@ -444,6 +450,20 @@ select:focus, input[type="file"]:focus, input[type="radio"]:focus, input[type="c
   outline: thin dotted #333;
   outline: 0px auto -webkit-focus-ring-color;
   outline-offset: -2px;
+}
+
+input[type="email"] {
+  padding-left: 20px!important;
+  padding-top: 2px!important;
+  padding-right: 0px!important;
+  padding-bottom: 0px!important;
+}
+
+select {
+  padding-left: 20px!important;
+  padding-top: 0px!important;
+  padding-right: 0px!important;
+  padding-bottom: 8px!important;
 }
 
 @media (max-width: 767px) {
