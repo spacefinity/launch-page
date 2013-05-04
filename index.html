@@ -27,6 +27,7 @@
         }
     }
     </style>
+
   </head>
   <body>
     <div class="red-mast">
@@ -59,7 +60,7 @@
                 <input type="hidden" name="u" value="8180d70a8f7aed836734d7835">
                 <input type="hidden" name="id" value="09ce230ea7">
               <div class="emailbox">
-                <input type="email" value="" name="EMAIL" class="field" id="mce-EMAIL" placeholder="Enter email address..." class="field">
+                <input type="email" value="Enter email address..." name="EMAIL" class="field" id="mce-EMAIL" class="field" onfocus="if (this.value == 'Enter email address...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email address...';}">
               </div>
                 <div class="styled-select-l">
                  <select name="MERGE1">
