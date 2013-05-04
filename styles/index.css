@@ -260,7 +260,7 @@ ul.social li {
 
 .linkedin {
   background-image: url('../images/linkedIn.png');
-  background-image: none,url('../images/linkedIn.svg'), url('../images/linkedIn.png');
+  background-image: none,url('../images/linkedin.svg'), url('../images/linkedin.png');
   background-repeat: no-repeat;
   height: 42px;
   width: 42px;
