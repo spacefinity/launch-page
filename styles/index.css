@@ -411,6 +411,14 @@ input.submit {
   text-decoration: underline!important;
 }
 
+.rustbuilt {
+  display: block;
+}
+
+.rustbuilt-skinny {
+  visibility: collapse;
+}
+
 .emailbox {
   float: left;
   margin-top: 22px;
@@ -471,6 +479,15 @@ select {
     padding-right: 0px;
     padding-left: 0px;
   }
+
+  .rustbuilt {
+  display: none;
+}
+
+.rustbuilt-skinny {
+  visibility: visible;
+  margin-top: 20px;
+}
 
   .styled-select-l {
   width: 100%!important;
@@ -596,7 +613,8 @@ margin-left: 20px;
   float: left;
   margin-left: 0px!important;
   margin-top: 0px!important;
-  margin-bottom: 0px!important;
+  margin-bottom: 15px!important;
+  width: 100%;
 }
 
 .copy {
