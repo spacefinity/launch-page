@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/css/bootstrap.css" rel="stylesheet" />
     <link href="styles/index.css" rel="stylesheet" />
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" href="ie.css" />
+    <![endif]-->
     <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
     <link rel="shortcut icon" href="favicon.png">
     <style type="text/css">
@@ -16,6 +19,12 @@
           padding-right:0px!important;
           padding-bottom:6px!important;
         }
+        .styled-select-l select {
+          width:110%;
+        }
+        .styled-select-r select {
+          width:110%;
+        }
     }
     </style>
   </head>
@@ -24,14 +33,16 @@
       <div class="container-760">
         <div class="skinny-container">
           <div class="logo">
-            <img src="images/sparespace.svg" />
+            <!--[if gte IE 9]><!--><img src="images/sparespace.svg" /><!--<![endif]-->
+            <!--[if lt IE 9]><img src="images/sparespace.png" /><![endif]-->
           </div>
           <div class="bubble">
             <h1 class="wide">Spacefinity is the online marketplace<br /> to <span style="color:#ed5835; font-weight:400">share your unused storage space</span><br /> and <span style="color:#ed5835; font-weight:400">rent it out to others.</span></h1>
             <h1 class="skinny">Spacefinity is the online marketplace to <span style="color:#ed5835; font-weight:400">share your unused storage space</span> and <span style="color:#ed5835; font-weight:400">rent it out to others.</span></h1>
           </div>
           <div class="spacelord">
-            <img src="images/space-lord.svg" class="SL" />
+            <!--[if gte IE 9]><!--><img src="images/space-lord.svg" class="SL" /><!--<![endif]-->
+            <!--[if lt IE 9]><img src="images/space-lord.png" class="SL" /><![endif]-->
           </div>
         </div>
       </div>
@@ -112,7 +123,8 @@
     <div class="grey-mast">
       <div class="container-760">
         <div class="renter">
-          <img src="images/renter.svg" class="Renter" />
+          <!--[if gte IE 9]><!--><img src="images/renter.svg" class="Renter" /><!--<![endif]-->
+          <!--[if lt IE 9]><img src="images/renter.png" class="Renter" /><![endif]-->
         </div>
         <div class="about">
           <h3>ABOUT SPACEFINITY</h3>
@@ -128,7 +140,8 @@
             &copy; Copyright 2013 Spacefinity. All rights reserved.<br />
             Join those who are bringing innovation back to the Rust Belt.
           </p>
-          <div class="rustbuilt"><a href="http://www.rustbuilt.com"><img src="images/rb.svg" height="72" width="145" /></a></div>
+          <div class="rustbuilt"><a href="http://www.rustbuilt.com"><!--[if gte IE 9]><!--><img src="images/rb.svg" height="72" width="145" /><!--<![endif]-->
+          <!--[if lt IE 9]><img src="images/rb.png" height="72" width="145" /><![endif]--></a></div>
         </div>
         <ul class="social">
           <li><a href="https://www.facebook.com/spacefinity?fref=ts" class="facebook" target="_blank"></a></li>
@@ -136,7 +149,10 @@
           <li><a href="http://www.linkedin.com/company/spacefinity" class="linkedin" target="_blank"></a></li>
           <li><a href="http://youtu.be/t_ML-O3zeOE" class="youtube" target="_blank"></a></li>
         </ul>
-        <div class="rustbuilt-skinny"><a href="http://www.rustbuilt.com"><img src="images/rb.svg" height="72" width="145" /></a></div><br />
+        <div class="rustbuilt-skinny"><a href="http://www.rustbuilt.com">
+          <!--[if gte IE 9]><!--><img src="images/rb.svg" height="72" width="145" /><!--<![endif]-->
+          <!--[if lt IE 9]><img src="images/rb.png" height="72" width="145" /><![endif]-->
+        </a></div><br />
       </div>
     </div>
   </body>

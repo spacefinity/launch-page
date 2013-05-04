@@ -44,7 +44,7 @@ p {
 }
 .bubble {
   background-image:url('../images/bubble.png');
-  background-image:none,url('../images/bubble.svg'),url('../images/bubble.png');
+
   background-repeat:no-repeat;
   width:477px;
   display:block;
@@ -304,8 +304,9 @@ ul.social li {
   border-radius:0;
   height:64px;
   width:100%;
+  width:105% \9;
   -webkit-appearance:none;
-  -moz-appearance: window; 
+  -moz-appearance: window!important; 
   padding-left:20px!important;
 }
 .styled-select-r select {
@@ -316,8 +317,9 @@ ul.social li {
   border-radius:0;
   height:64px;
   width:100%;
+  width:105% \9;
   -webkit-appearance:none;
-  -moz-appearance: window; 
+  -moz-appearance: window!important; 
   padding-left:20px!important;
 }
 .styled-select-l {
@@ -396,7 +398,7 @@ input.field::-moz-placeholder {
   width:295px;
 }
 select:focus,input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus {
-
+  outline: none;
   outline:0px auto -webkit-focus-ring-color;
   outline-offset:-2px;
 }
