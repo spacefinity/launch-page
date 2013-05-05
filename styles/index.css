@@ -43,8 +43,7 @@ p {
   max-width:760px;
 }
 .bubble {
-  background-image:url('../images/bubble.png');
-  background-image:none,url('../images/bubble.svg'),url('../images/bubble.png');
+  background-image:none,url('../images/bubble.svg');
   background-repeat:no-repeat;
   width:477px;
   display:block;
