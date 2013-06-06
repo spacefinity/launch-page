@@ -29,6 +29,31 @@
     }
     </style>
 
+    <script type="text/javascript">
+      function responsiveAdjustments() {
+        if ($(window).width() <= 480 && $(window).width() >=0) {
+          $("#DefaultSpace").val("Space to rent?");
+          $("#DefaultSpace").html("Space to rent?");
+          $("#DefaultStuff").val("Stuff to store?");
+          $("#DefaultStuff").html("Stuff to store?");
+        }
+        else {
+          $("#DefaultSpace").val("Do you have space to rent?");
+          $("#DefaultSpace").html("Do you have space to rent?");
+          $("#DefaultStuff").val("Do you have stuff to store?");
+          $("#DefaultStuff").html("Do you have stuff to store?");
+        }
+      }
+
+      $(document).ready(function() {
+        responsiveAdjustments();
+      });
+
+      $(window).resize(function() {
+        responsiveAdjustments();
+      });
+    </script>
+
   </head>
   <body>
     <div class="red-mast">
@@ -56,22 +81,22 @@
     </div>
 
     <!-- Sign Up -->
-    <div id="mc_embed_signup" class="animated fadeIn">
-      <form action="http://spacefinity.us4.list-manage2.com/subscribe/post?u=8180d70a8f7aed836734d7835&amp;id=09ce230ea7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div class="animated fadeIn">
         <div class="container">
           <div class="signup">
             <h2 class="launch">We’re working hard to launch as soon as possible. <br />Sign up now for our mailing list and spread the word.</h2>
             <div class="mailchimp">
-              <form action="http://spacefinity.us4.list-manage.com/subscribe/post" method="POST">
+              <form action="http://spacefinity.us4.list-manage1.com/subscribe/post" method="POST">
                 <input type="hidden" name="u" value="8180d70a8f7aed836734d7835">
                 <input type="hidden" name="id" value="09ce230ea7">
+
               <div class="emailbox">
-                <input type="email" value="Enter email address..." name="EMAIL" class="field" id="mce-EMAIL" class="field" onfocus="if (this.value == 'Enter email address...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email address...';}">
+                <input type="email" value="Enter email address..." name="MERGE0" class="field" class="field" onfocus="if (this.value == 'Enter email address...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email address...';}">
               </div>
               <div class="form">
                 <div class="styled-select-l">
                  <select name="MERGE1">
-                    <option value="Do you have space to rent?" selected="selected">
+                    <option value="Do you have space to rent?" selected="selected" id="DefaultSpace">
                     Do you have space to rent?
                   </option>
                   <option value="Garage">
@@ -92,11 +117,14 @@
                   <option value="Other">
                     Other
                   </option>
+                  <option value="I don't have space">
+                    I don't have space
+                  </option>
                  </select>
                 </div>
                 <div class="styled-select-r">
                  <select name="MERGE2">
-                    <option value="Do you have stuff to store?" selected="selected">
+                    <option value="Do you have stuff to store?" selected="selected" id="DefaultStuff">
                     Do you have stuff to store?
                   </option>
                   <option value="Books">
@@ -117,68 +145,18 @@
                   <option value="Other">
                     Other
                   </option>
-                 </select>
-                </div>
-              </div>
-              <div class="form-skinny">
-                <div class="styled-select-l">
-                 <select name="MERGE1">
-                    <option value="Do you have space to rent?" selected="selected">
-                    Space to rent?
-                  </option>
-                  <option value="Garage">
-                    Garage
-                  </option>
-                  <option value="Basement">
-                    Basement
-                  </option>
-                  <option value="Attic">
-                    Attic
-                  </option>
-                  <option value="Shed">
-                    Shed
-                  </option>
-                  <option value="Spare Room">
-                    Spare Room
-                  </option>
-                  <option value="Other">
-                    Other
-                  </option>
-                 </select>
-                </div>
-                <div class="styled-select-r">
-                 <select name="MERGE2">
-                    <option value="Do you have stuff to store?" selected="selected">
-                    Stuff to store?
-                  </option>
-                  <option value="Books">
-                    Books
-                  </option>
-                  <option value="Bike">
-                    Bike
-                  </option>
-                  <option value="Clothes">
-                    Clothes
-                  </option>
-                  <option value="Equipment">
-                    Equipment
-                  </option>
-                  <option value="Tools">
-                    Tools
-                  </option>
-                  <option value="Other">
-                    Other
+                  <option value="I don't have stuff">
+                    I don't have stuff
                   </option>
                  </select>
                 </div>
               </div>
-              <input type="submit" value="SIGN UP NOW" name="subscribe" id="mc-embedded-subscribe" class="signupbutton">
+              <input type="submit" value="SIGN UP NOW" name="subscribe" class="signupbutton">
              </div>
-              
+              </form>
             </div>
           </div>
         </div>
-      </form>
     </div>
 
     <div class="grey-mast animated fadeIn">
@@ -237,9 +215,9 @@
         primary_color: '#cc6d00',
         link_color: '#007dbf',
         forum_id: 209771,
-        tab_label: 'Feedback & Support',
-        tab_color: '#cc6d00',
-        tab_position: 'middle-right',
+        tab_label: 'Feedback',
+        tab_color: '#ed5835',
+        tab_position: 'bottom-right',
         tab_inverted: false
       }]);
     </script>
